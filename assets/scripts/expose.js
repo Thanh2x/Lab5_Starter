@@ -35,7 +35,7 @@ function init() {
     const volume = volumeSelect.value;
     audioSelect.volume = volume / 100;
 
-    if (volume === 0) {
+    if (volume == 0) {
       volumeImgSelect.src = "assets/icons/volume-level-0.svg";
     } else if (volume >= 1 && volume < 33) {
       volumeImgSelect.src = "assets/icons/volume-level-1.svg";
